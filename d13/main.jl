@@ -56,8 +56,8 @@ function printP(P)
     A = A'
     for i in 1:ma_y+1
         for j in 1:ma_x+1
-            if A[i, :] == 1
-                print("X")
+            if A[i, j] == 1
+                print("█")
             else
                 print(" ")
             end
